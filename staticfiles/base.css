@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #505050;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background: #3f8db4 !important;
+    background-color: rgba(102, 186, 229, 0.7);
+    color: black;
+}
+.topnav a.active {
+    background-color: #3f8db4 !important;
+    background: #3f8db4 !important;
+    color: white;
+}
+.container {
+    padding: 10px;
+    height: max-content;
+}
+/*.jakies_styl{*/
+/*    background-color: darkmagenta;*/
+/*}*/
+body{ min-height:100vh; margin:0; position:relative; }
+header{ min-height:50px; background:lightcyan; }
+footer{ background:PapayaWhip; }
+
+/* Trick for footer fixed bottom: */
+body {
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: lightgray;
+    height:60px;
+    width: 100%;
+}

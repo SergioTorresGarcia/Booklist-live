@@ -1,0 +1,55 @@
+table.blueTable {
+  font-family: Georgia, serif;
+  width: 95%;
+  text-align: center;
+  padding-left: 5%;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #3f8db4;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  border: 1px solid #3f8db4;
+  font-size: 13px;
+  background: #FFFFFF;
+}
+table.blueTable thead {
+  background: #3f8db4;
+  border-bottom: 0px solid #444444;
+
+}
+table.blueTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #F0F0F0;
+  background: #3f8db4;
+  text-align: left;
+  border-left: 2px solid #3f8db4;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+table.blueTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #F0F0F0;
+  background: #3f8db4;
+  border-top: 1px solid #3f8db4;
+}
+table.blueTable tfoot td {
+  font-size: 13px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #3f8db4;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.floated {
+   float:left;
+   margin-right:5px;
+}
